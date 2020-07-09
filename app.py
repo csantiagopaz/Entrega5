@@ -4,6 +4,7 @@ import pymongo
 
 app = Flask(__name__)
 
+print('caua')
 @app.route('/')
 def hello_world():
     return 'Hello World!'
